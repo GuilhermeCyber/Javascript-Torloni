@@ -1,26 +1,10 @@
-let login = prompt("Digite seu Email: ")
+let username = prompt("Digite o seu usuário: ")
 
-switch (login) {
-    case "admin":
-        console.log("Login bem sucedido")
-        break;
+let senha = prompt("Digite a sua senha:  ")
 
-
-
-    default:
-        console.log("Login Incorreto")
-        break;
-
-
+if (username == "admin" && senha == "senha123") {
+    console.log("Login bem-sucedida!")
 }
-let senha = prompt("Insira sua senha: ")
-
-switch (senha) {
-    case "senha123":
-        console.log("Senha correta")
-        break;
-
-    default:
-        console.log("Senha Incorreta")
-        break;
+else {
+    console.log("Login incorreto! ;-:")
 }
