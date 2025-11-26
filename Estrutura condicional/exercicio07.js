@@ -1,4 +1,4 @@
-let valorCompra = Number(prompt("Digite o valor total da compra: "));
+let valorCompra = parseFloat(prompt("Digite o valor total da compra: "));
 
 let desconto = 0;
 
